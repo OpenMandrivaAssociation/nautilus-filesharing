@@ -29,7 +29,8 @@ This package contains Nautilus extension for filesharing.
 %makeinstall_std
 
 #remove unpackaged files
-rm -f $RPM_BUILD_ROOT%{_libdir}/nautilus/extensions-1.0/*.{la,a}
+rm -f $RPM_BUILD_ROOT%{_libdir}/nautilus/extensions-1.0/*.{la,a} \
+      %buildroot%{_datadir}/icons/gnome/scalable/emblems/emblem-shared.svg
 
 %clean
 [ -n "$RPM_BUILD_ROOT" -a "$RPM_BUILD_ROOT" != / ] && rm -rf $RPM_BUILD_ROOT
@@ -38,5 +39,5 @@ rm -f $RPM_BUILD_ROOT%{_libdir}/nautilus/extensions-1.0/*.{la,a}
 %defattr(-, root, root)
 %doc AUTHORS COPYING 
 %{_libdir}/nautilus/extensions-1.0/*.so
-%{_datadir}/icons/gnome/scalable/emblems/*
+
 
