@@ -6,7 +6,6 @@ Group: 		File tools
 License: 	GPL
 URL:		http://www.mandrivalinux.com/
 Source0: 	%{name}-%{version}.tar.bz2
-BuildRoot: 	%{_tmppath}/%{name}-%{version}-buildroot
 Requires:	mdk-menu-messages
 
 BuildRequires:	nautilus-devel
