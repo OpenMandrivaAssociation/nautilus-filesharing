@@ -1,6 +1,6 @@
 Name: 		nautilus-filesharing
 Version:	0.2
-Release: 	%mkrel 3
+Release: 	%mkrel 5
 Summary: 	Filesharing extension for Nautilus
 Group: 		File tools
 License: 	GPL
