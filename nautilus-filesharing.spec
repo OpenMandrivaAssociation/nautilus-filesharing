@@ -1,5 +1,5 @@
 Name: 		nautilus-filesharing
-Version:	0.3
+Version:	0.4
 Release: 	%mkrel 1
 Summary: 	Filesharing extension for Nautilus
 Group: 		File tools
