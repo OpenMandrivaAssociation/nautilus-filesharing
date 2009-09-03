@@ -12,7 +12,7 @@ Requires:	mdk-menu-messages
 BuildRequires:	eel-devel >= 2.14.0
 BuildRequires:	glib2-devel >= 2.15.6
 BuildRequires:	nautilus-devel
-BuildRequires:	libgnome2-devel
+BuildRequires:	libgnomeui2-devel
 
 %description
 This package contains Nautilus extension for filesharing.
