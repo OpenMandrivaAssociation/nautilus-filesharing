@@ -1,28 +1,24 @@
 Name: 		nautilus-filesharing
-Version:	0.5
-Release: 	%mkrel 4
+Version:	0.6
+Release: 	%mkrel 1
 Summary: 	Filesharing extension for Nautilus
 Group: 		File tools
 License: 	GPL
 URL:		http://www.mandrivalinux.com/
 Source0: 	%{name}-%{version}.tar.gz
-Patch0:		nautilus-filesharing-0.5-use-gnomeui.patch
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-buildroot
 Requires:	mdk-menu-messages
-BuildRequires:	eel-devel >= 2.14.0
-BuildRequires:	glib2-devel >= 2.15.6
+Requires:	drakxtools-newt
+BuildRequires:	gtk+2-devel
 BuildRequires:	nautilus-devel
-BuildRequires:	libgnomeui2-devel
 
 %description
 This package contains Nautilus extension for filesharing.
 
 %prep
 %setup -q
-%patch0 -p0
 
 %build
-autoreconf -fi
 %configure2_5x
 %make
 
