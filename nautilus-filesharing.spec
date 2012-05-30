@@ -1,11 +1,11 @@
-Name: 		nautilus-filesharing
+Name:		nautilus-filesharing
 Version:	0.6
-Release: 	6
-Summary: 	Filesharing extension for Nautilus
-Group: 		File tools
-License: 	GPLv2+
+Release:	6
+Summary:	Filesharing extension for Nautilus
+Group:		File tools
+License:	GPLv2+
 URL:		http://www.mandrivalinux.com/
-Source0: 	%{name}-%{version}.tar.gz
+Source0:	%{name}-%{version}.tar.gz
 Requires:	mdk-menu-messages
 Requires:	drakxtools-curses
 BuildRequires:	gtk+2-devel
