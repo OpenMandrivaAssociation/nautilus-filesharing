@@ -3,7 +3,7 @@ Version:	0.6
 Release: 	6
 Summary: 	Filesharing extension for Nautilus
 Group: 		File tools
-License: 	GPL
+License: 	GPLv2+
 URL:		http://www.mandrivalinux.com/
 Source0: 	%{name}-%{version}.tar.gz
 Requires:	mdk-menu-messages
