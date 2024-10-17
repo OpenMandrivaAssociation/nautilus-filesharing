@@ -4,7 +4,7 @@ Version:	0.6
 Release:	7
 Group:		File tools
 License:	GPLv2
-Url:		http://www.mandrivalinux.com/
+Url:		https://www.mandrivalinux.com/
 Source0:	%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(gtk+-2.0)
 BuildRequires:	pkgconfig(libnautilus-extension)
